@@ -14,6 +14,10 @@ Most cloud service providers, will have a native solution and the managing state
 
 With the exception of Oracle Cloud which is powered by Terraform.
 
+<h2>In order to authenticate to Terraform Cloud what is recommended for local development?</h2>
+
+<h3>Answer:</h3> terraform login
+
 
 
 
