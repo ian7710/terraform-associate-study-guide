@@ -18,6 +18,14 @@ With the exception of Oracle Cloud which is powered by Terraform.
 
 <h3>Answer:</h3> terraform login
 
+<h3>Explanation</h3>
+
+Terraform Login command can be used to automatically obtain and save an API token for Terraform Cloud, Terraform Enterprise, or any other host that offers Terraform services.
+
+https://www.terraform.io/docs/cli/commands/login.html
+
+This is the recommended way to connect to terraform
+
 
 
 
