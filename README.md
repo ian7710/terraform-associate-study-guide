@@ -10,7 +10,7 @@ GCP is a cloud-native solution and there is no state file, or at least it is abs
 
 Cloud Agnostic solutions like Terraform and Plumi require a state file since state has to be portable.
 
-Most cloud service providers, will have a native solution and the managing state will be attracted away within their online service and you'll never be able to download or move the state file around.
+Most cloud service providers, will have a native solution and the managing state will be abstracted away within their online service and you'll never be able to download or move the state file around.
 
 With the exception of Oracle Cloud which is powered by Terraform.
 
