@@ -56,7 +56,7 @@ https://www.hashicorp.com/blog/deploying-terraform-enterprise-in-airgapped-envir
 
 This tutorial on HashiCorp Learn shows how to use secrets. https://learn.hashicorp.com/tutorials/terraform/secrets-vault?in=terraform/security
 
-<h2>A DevOps Engineer needs to reference an existing AMI (machine image) for an AWS Virtual machine called example.
+<h2>A DevOps Engineer needs to reference an existing AMI (machine image) for an AWS Virtual machine called example. What would be the correct resource address to assign this AMI to another virtual machine?</h2>
 
 resource "aws_instance" "example" {
   ami           = "ami-abc123"
@@ -71,7 +71,6 @@ resource "aws_instance" "example" {
     volume_size = 20
   }
 }
-What would be the correct resource address to assign this AMI to another virtual machine? </h2>
 
 
 
