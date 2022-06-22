@@ -75,11 +75,15 @@ resource "aws_instance" "example" {
 ```
 
 <h3>Answer</h2>
+
 ```json
 resource "aws_instance" "example2" {
   ami = aws_instance.example.ami
+  }
 ```
+
 <h3>Explanation</h3>
+
 This is correct because we are referencing the resource block
 
 
