@@ -44,6 +44,10 @@ https://www.hashicorp.com/blog/deploying-terraform-enterprise-in-airgapped-envir
 
 <h2>Terraform is a cloud-agnostic tool that can deploy to multiple cloud providers and including anything that has an API such as Kubernetes and Postgres?</h2>
 
+<h3>Answer</h3> True
+
+<h3>Explanation</h3> https://www.terraform.io/intro/use-cases.html#multi-cloud-deployment
+
 
 
 
