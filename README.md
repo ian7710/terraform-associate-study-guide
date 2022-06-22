@@ -2,11 +2,11 @@
 
 <h2>Which IaC tool does not use state files to manage its cloud resources?</h2>
 
-<h3>Answer:</h3> GCP Deployment Manager
+<h3>Answer:</h3> GCP Deployment Manager and AWS CloudFormation
 
 <h3>Explanation</h3>
 
-GCP is a cloud-native solution and there is no state file, or at least it is abstracted away so you don't have to manage or think about it
+GCP and CloudFormation are cloud-native solutions and there is no state file, or at least it is abstracted away so you don't have to manage or think about it
 
 Cloud Agnostic solutions like Terraform and Plumi require a state file since state has to be portable.
 
