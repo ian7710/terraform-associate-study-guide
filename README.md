@@ -1,2 +1,2 @@
 # terraform-associate-study-guide
-Study Guide for Terraform Associate Exam
+<h1>Study Guide for Terraform Associate Exam</h1>
