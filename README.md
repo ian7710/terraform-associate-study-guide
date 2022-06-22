@@ -1,6 +1,8 @@
 <h1>Study Guide for Terraform Associate Exam</h1>
 
-<h2>Which IaC tool does not use state files to manage its cloud resources?</h2> Answer: GCP Deployment Manager
+<h2>Which IaC tool does not use state files to manage its cloud resources?</h2>
+
+<h3>Answer:</h3> GCP Deployment Manager
 
 <h3>Explanation</h3>
 
