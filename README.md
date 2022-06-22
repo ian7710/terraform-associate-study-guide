@@ -42,6 +42,8 @@ https://www.hashicorp.com/blog/deploying-terraform-enterprise-in-airgapped-envir
 
 <h3>Answer</h3> init > fmt > validate > plan > apply > destroy
 
+<h2>Terraform is a cloud-agnostic tool that can deploy to multiple cloud providers and including anything that has an API such as Kubernetes and Postgres?</h2>
+
 
 
 
