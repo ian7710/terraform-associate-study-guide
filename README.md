@@ -122,7 +122,7 @@ Sentinel allows you to write policies to validate that your infrastructure is in
 <h3>Explanation</h3>
 Sentinel is a Policy as Code tool. You can use it to validate the state of your infrastructure and automate it for remediation to ensure your infrastructure stays compliant.
 
-Sentinel Documentation
+<a href="https://docs.hashicorp.com/sentinel">Sentinel Documentation</a>
 
 
 
