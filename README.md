@@ -48,6 +48,14 @@ https://www.hashicorp.com/blog/deploying-terraform-enterprise-in-airgapped-envir
 
 <h3>Explanation</h3> https://www.terraform.io/intro/use-cases.html#multi-cloud-deployment
 
+<h2>What HashiCorp service can be used alongside Terraform to inject secrets to protect a developer's local enviroment?</h2>
+
+<h3>Answer</h3> Vault
+
+<h3>Explanation</h3> Vault allows you to centralized the management of secrets from various secrets repositories. You can use Vault to pull sensitive credentials at the time of terraform apply.
+
+This tutorial on HashiCorp Learn shows how to use secrets. https://learn.hashicorp.com/tutorials/terraform/secrets-vault?in=terraform/security
+
 
 
 
