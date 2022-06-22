@@ -26,9 +26,23 @@ https://www.terraform.io/docs/cli/commands/login.html
 
 This is the recommended way to connect to terraform
 
-<h2>Terraform Enterprise Air-gapped environment is designed to run in a network with no internet or outside connectivity</h2>
+<h1>Terraform Enterprise Air-gapped environment is designed to run in a network with no internet or outside connectivity</h1>
 
-<h3>Terraform Enterprise Air-gapped environment is designed to run in a network with no internet or outside connectivity</h3>
+<h3>Answer:</h3> True
+
+<h3>Explanation</h3>
+
+What is Air Gap?
+
+Air Gap or disconnected network is a network security measure employed on one or more computers to ensure that a secure computer network is physically isolated from unsecured networks e.g. Public Internet
+
+https://www.hashicorp.com/blog/deploying-terraform-enterprise-in-airgapped-environments
+
+
+
+
+
+
 
 
 
