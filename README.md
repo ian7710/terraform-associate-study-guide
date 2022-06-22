@@ -60,7 +60,7 @@ This tutorial on HashiCorp Learn shows how to use secrets. https://learn.hashico
 
 ```json
 resource "aws_instance" "example" {
-  ami           = "ami-abc123"
+  ami = "ami-abc123"
   instance_type = "t2.micro"
 
   ebs_block_device {
