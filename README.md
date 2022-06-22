@@ -114,17 +114,15 @@ Terraform will search the state for any instances matching the given resource ad
 
 https://www.terraform.io/docs/cli/commands/state/rm.html
 
-<h2>When you want to remove a record tracking a remote object in your state file but have the remote object (eg. Azure Virtual Machine) to still exist, which command do you use?</h2>
+<h2>What is the purpose of Sentinel with Terraform?</h2>
 
 <h3>Answer</h3>
-terraform state rm
+Sentinel allows you to write policies to validate that your infrastructure is in its expected configuration.
 
 <h3>Explanation</h3>
-Usage: terraform state rm [options] ADDRESS...
+Sentinel is a Policy as Code tool. You can use it to validate the state of your infrastructure and automate it for remediation to ensure your infrastructure stays compliant.
 
-Terraform will search the state for any instances matching the given resource address, and remove the record of each one so that Terraform will no longer be tracking the corresponding remote objects
-
-https://www.terraform.io/docs/cli/commands/state/rm.html
+Sentinel Documentation
 
 
 
