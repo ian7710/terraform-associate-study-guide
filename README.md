@@ -58,6 +58,7 @@ This tutorial on HashiCorp Learn shows how to use secrets. https://learn.hashico
 
 <h2>A DevOps Engineer needs to reference an existing AMI (machine image) for an AWS Virtual machine called example. What would be the correct resource address to assign this AMI to another virtual machine?</h2>
 
+```json
 resource "aws_instance" "example" {
   ami           = "ami-abc123"
   instance_type = "t2.micro"
@@ -71,6 +72,7 @@ resource "aws_instance" "example" {
     volume_size = 20
   }
 }
+```
 
 
 
