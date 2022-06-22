@@ -2,7 +2,7 @@
 
 <h2>Which IaC tool does not use state files to manage its cloud resources?</h2>
 
-<h3>Answer:</h3> GCP Deployment Manager and AWS CloudFormation
+<h3>Answer</h3> GCP Deployment Manager and AWS CloudFormation
 
 <h3>Explanation</h3>
 
@@ -16,7 +16,7 @@ With the exception of Oracle Cloud which is powered by Terraform.
 
 <h2>In order to authenticate to Terraform Cloud what is recommended for local development?</h2>
 
-<h3>Answer:</h3> terraform login
+<h3>Answer</h3> terraform login
 
 <h3>Explanation</h3>
 
@@ -26,9 +26,9 @@ https://www.terraform.io/docs/cli/commands/login.html
 
 This is the recommended way to connect to terraform
 
-<h1>Terraform Enterprise Air-gapped environment is designed to run in a network with no internet or outside connectivity</h1>
+<h2>Terraform Enterprise Air-gapped environment is designed to run in a network with no internet or outside connectivity</h2>
 
-<h3>Answer:</h3> True
+<h3>Answer</h3> True
 
 <h3>Explanation</h3>
 
