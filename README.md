@@ -38,6 +38,9 @@ Air Gap or disconnected network is a network security measure employed on one or
 
 https://www.hashicorp.com/blog/deploying-terraform-enterprise-in-airgapped-environments
 
+<h2>What is the general order of a terraform lifecycle?</h2>
+
+<h3>Answer</h3> init > fmt > validate > plan > apply > destroy
 
 
 
