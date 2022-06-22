@@ -26,6 +26,11 @@ https://www.terraform.io/docs/cli/commands/login.html
 
 This is the recommended way to connect to terraform
 
+<h2>Terraform Enterprise Air-gapped environment is designed to run in a network with no internet or outside connectivity</h2>
+
+<h3>Terraform Enterprise Air-gapped environment is designed to run in a network with no internet or outside connectivity</h3>
+
+
 
 
 
