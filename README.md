@@ -86,6 +86,22 @@ resource "aws_instance" "example2" {
 
 This is correct because we are referencing the resource block
 
+<h2>Not specifying the module version for a module will result in an error?</h2>
+
+```json
+module "consul" {
+  source = "hashicorp/consul/aws"
+}
+```
+<h3>Answer</h3> True, it will result in an error
+
+<h3>Explanation</h3>
+It does not explicitly say in the docs, but if you remove the version then you will see that it will pull the latest stable from Terraform Registy
+
+The real exam had a similar question which is why this is included in the exam pool of questions.
+
+https://www.terraform.io/docs/language/modules/sources.html
+
 
 
 
