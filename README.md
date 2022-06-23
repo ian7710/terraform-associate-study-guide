@@ -300,3 +300,20 @@ https://www.terraform.io/docs/cli/commands/taint.html
 For example,
 
 terraform apply -replace="aws_instance.example[0]"
+
+<h2>When we want the most verbose information from terraform logging what severity should we set?</h2>
+
+<h3>Answer</h3>
+TRACE
+
+<h3>Explanation</h3>
+https://www.terraform.io/docs/internals/debugging.html
+
+You can set TF_LOG to one of the log levels TRACE, DEBUG, INFO, WARN, or ERROR to change the verbosity of the logs.
+
+https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
+
+Trace - Only when I would be "tracing" the code and trying to find one part of a function specifically. Debug - Information that is diagnostically helpful to people more than just developers (IT, sysadmins, etc.).
+Info - Generally useful information to log (service start/stop, configuration assumptions, etc). Info I want to always have available but usually don't care about under normal circumstances. This is my out-of-the-box config level.
+Warn - Anything that can potentially cause application oddities, but for which I am automatically recovering. (Such as switching from a primary to backup server, retrying an operation, missing secondary data, etc.)
+Error - Any error which is fatal to the operation, but not the service or application (can't open a required file, missing data, etc.). These errors will force user (administrator, or direct user) intervention. These are usually reserved (in my apps) for incorrect connection strings, missing services, etc.
