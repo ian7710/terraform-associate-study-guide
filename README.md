@@ -143,6 +143,7 @@ provider "aws" {
 <h3>Answer</h3> False
 
 <h3>Explanation</h3>
+
 ```json
 Each Terraform module must declare which providers it requires, so that Terraform can install and use them. Provider requirements are declared in a required_providers block.
 
@@ -159,6 +160,7 @@ provider "aws" {
   # Configuration options
 }
 ```
+
 https://www.terraform.io/docs/language/providers/requirements.html#requiring-providers
 
 
