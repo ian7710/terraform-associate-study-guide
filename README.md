@@ -268,3 +268,14 @@ When the Pull Request is approved Terraform Cloud runs terraform apply
 <h3>Answer</h3>
 Core Workflow Enhanced
   <a target="_blank" href="https://www.terraform.io/intro/core-workflow#the-core-workflow-enhanced-by-terraform-cloud">The Core Workflow Enhanced by Terraform Cloud</a>
+  
+<h2>The safest place to store your state file is within your git repository</h2>
+
+<h3>Answer</h3>
+False
+
+<h3>Explanation</h3>
+Your state file can contain sensitive information, and storing in your codebase git repository is considered dangerous.
+
+
+  
