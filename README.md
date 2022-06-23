@@ -210,6 +210,13 @@ coalesce takes any number of arguments and returns the first one that isn't null
 <h3>Explanation</h3>
 coalesce https://www.terraform.io/docs/language/functions/coalesce.html
 
+<h2>When running terraform init, it will do the following:</h2>
+
+<h3>Answer</h3>
+Create a dependency lock file, Download plugin dependencies https://www.terraform.io/docs/cli/commands/init.html, Create a .terraform directory
+
+
+
 
 
 
