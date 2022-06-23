@@ -176,12 +176,31 @@ https://www.terraform.io/docs/cli/commands/plan.html#resource-targeting
 
 Which of the following will achieve this requirement?</h2>
 
-<h3>version = "~> 1.2.0"</h3>
+<h3>Answer</h3>
+version = "~> 1.2.0"
 
 <h3>Explanation</h3>
 ~>: Allows only the rightmost version component to increment. For example, to allow new patch releases within a specific minor release, use the full version number: ~> 1.0.4 will allow installation of 1.0.5 and 1.0.10 but not 1.1.0. This is usually called the pessimistic constraint operator.
 
 https://www.terraform.io/docs/language/expressions/version-constraints.html
+
+<h2>Which is NOT a valid argument for remote-exec?</h2>
+
+<h3>Answer</h3>
+interpreter
+
+<h3>Explanation</h3>
+interpreter is an argument available to local-exec
+
+The following arguments are supported:
+
+inline - This is a list of command strings. They are executed in the order they are provided. This cannot be provided with script or scripts.
+
+script - This is a path (relative or absolute) to a local script that will be copied to the remote resource and then executed. This cannot be provided with inline or scripts.
+
+scripts - This is a list of paths (relative or absolute) to local scripts that will be copied to the remote resource and then executed. They are executed in the order they are provided. This cannot be provided with inline or script.
+
+https://www.terraform.io/docs/language/resources/provisioners/remote-exec.html
 
 
 
