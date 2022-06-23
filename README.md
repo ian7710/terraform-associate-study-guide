@@ -279,7 +279,8 @@ Your state file can contain sensitive information, and storing in your codebase 
 
 <h2>The Terraform Registry contains both public and private providers and modules</h2>
 
-<h3>False</h3>
+<h3>Answer</h3>
+False
 
 <h3>Explanation</h3>
 The Terraform Registry only contains public providers and modules.
