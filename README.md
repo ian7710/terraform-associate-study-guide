@@ -286,4 +286,17 @@ False
 The Terraform Registry only contains public providers and modules.
 
 https://www.terraform.io/docs/registry/private.html
+
+<h2>When using terraform apply -replace= you can only specify a single resource for replacement</h2>
   
+<h3>Answer</h3>
+True
+
+<h3>Explanation</h3>
+This is true, you can only replace a single resource at a time.
+
+https://www.terraform.io/docs/cli/commands/taint.html
+
+For example,
+
+terraform apply -replace="aws_instance.example[0]"
