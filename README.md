@@ -277,5 +277,12 @@ False
 <h3>Explanation</h3>
 Your state file can contain sensitive information, and storing in your codebase git repository is considered dangerous.
 
+<h2>The Terraform Registry contains both public and private providers and modules</h2>
 
+<h3>False</h3>
+
+<h3>Explanation</h3>
+The Terraform Registry only contains public providers and modules.
+
+https://www.terraform.io/docs/registry/private.html
   
