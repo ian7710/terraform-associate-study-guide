@@ -124,7 +124,42 @@ Sentinel is a Policy as Code tool. You can use it to validate the state of your 
 
 <a href="https://docs.hashicorp.com/sentinel">Sentinel Documentation</a>
 
+<h2>The following is a valid configuration for a provider?</h2>
 
+```json
+terraform {
+  providers{
+    aws = {
+      source = "hashicorp/aws"
+      version = "3.58.0"
+    }
+  }
+}
+
+provider "aws" {
+  # Configuration options
+}
+```
+<h3>Answer</h3> False
+
+<h3>Explanation</h3>
+```json
+Each Terraform module must declare which providers it requires, so that Terraform can install and use them. Provider requirements are declared in a required_providers block.
+
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+      version = "3.58.0"
+    }
+  }
+}
+
+provider "aws" {
+  # Configuration options
+}
+```
+https://www.terraform.io/docs/language/providers/requirements.html#requiring-providers
 
 
 
