@@ -215,7 +215,13 @@ coalesce https://www.terraform.io/docs/language/functions/coalesce.html
 <h3>Answer</h3>
 Create a dependency lock file, Download plugin dependencies https://www.terraform.io/docs/cli/commands/init.html, Create a .terraform directory
 
+<h2>How does Terraform Cloud backup states?</h2>
 
+<h3>Answer</h3>
+
+Terraform Cloud saves a history of state files every time you perform a run
+
+https://www.terraform.io/docs/language/state/index.html
 
 
 
