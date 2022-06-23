@@ -202,6 +202,13 @@ scripts - This is a list of paths (relative or absolute) to local scripts that w
 
 https://www.terraform.io/docs/language/resources/provisioners/remote-exec.html
 
+<h2>What does the coalesce built-in function in Terraform do?</h2>
+
+<h3>Answer</h3>
+coalesce takes any number of arguments and returns the first one that isn't null or an empty string.
+
+<h3>Explanation</h3>
+coalesce https://www.terraform.io/docs/language/functions/coalesce.html
 
 
 
