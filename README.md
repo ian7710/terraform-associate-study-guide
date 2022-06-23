@@ -258,3 +258,13 @@ For example, to use HTTPS or SSH:
 module "vpc" { source = "git::https://example.com/vpc.git" }
 
 module "storage" { source = "git::ssh://username@example.com/storage.git" }
+
+<h2>Which Terraform Workflow ( Write -> Plan -> Create ) does this describe?</h2>
+
+The project resides in a repo, and the backend is configured to use Terraform Cloud
+Pull requests are submitted to the repo with new changes
+When the Pull Request is approved Terraform Cloud runs terraform apply
+
+<h3>Answer>
+  Core Workflow Enhanced
+  <a href="https://www.terraform.io/intro/core-workflow#the-core-workflow-enhanced-by-terraform-cloud">The Core Workflow Enhanced by Terraform Cloud</a>
