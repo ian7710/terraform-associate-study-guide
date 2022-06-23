@@ -172,6 +172,17 @@ https://www.terraform.io/docs/language/providers/requirements.html#requiring-pro
 
 https://www.terraform.io/docs/cli/commands/plan.html#resource-targeting
 
+<h2>A module needs to have the latest patches applied but not update the major or minor version.
+
+Which of the following will achieve this requirement?</h2>
+
+<h3>version = "~> 1.2.0"</h3>
+
+<h3>Explanation</h3>
+~>: Allows only the rightmost version component to increment. For example, to allow new patch releases within a specific minor release, use the full version number: ~> 1.0.4 will allow installation of 1.0.5 and 1.0.10 but not 1.1.0. This is usually called the pessimistic constraint operator.
+
+https://www.terraform.io/docs/language/expressions/version-constraints.html
+
 
 
 
