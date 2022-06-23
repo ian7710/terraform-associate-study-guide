@@ -223,6 +223,24 @@ Terraform Cloud saves a history of state files every time you perform a run
 
 https://www.terraform.io/docs/language/state/index.html
 
+<h2>When defining a data source block, how can we narrow down the resource we want to select from a remote provider?</h2>
 
+<h3>Answer</h3>
+The filter block allows a data source to select resources from a provider.
+
+```json
+data "aws_ami" "web" {
+  filter {
+    name   = "state"
+    values = ["available"]
+  }
+
+  filter {
+    name   = "tag:Component"
+    values = ["web"]
+  }
+}
+```
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/subnet_ids#argument-reference
 
 
