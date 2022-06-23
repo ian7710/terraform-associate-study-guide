@@ -243,4 +243,18 @@ data "aws_ami" "web" {
 ```
 https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/subnet_ids#argument-reference
 
+<h2>When specifying a module from an Arbitrary Git repository the following protocols are allowed<h2>
 
+<h3>Answer</h3>
+SSH and HTTPS
+
+<h3>Explanation</h3>
+  https://www.terraform.io/docs/language/modules/sources.html#generic-git-repository
+
+Arbitrary Git repositories can be used by prefixing the address with the special git:: prefix. After this prefix, any valid Git URL can be specified to select one of the protocols supported by Git.
+
+For example, to use HTTPS or SSH:
+
+module "vpc" { source = "git::https://example.com/vpc.git" }
+
+module "storage" { source = "git::ssh://username@example.com/storage.git" }
