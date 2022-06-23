@@ -265,6 +265,6 @@ The project resides in a repo, and the backend is configured to use Terraform Cl
 Pull requests are submitted to the repo with new changes
 When the Pull Request is approved Terraform Cloud runs terraform apply
 
-<h3>Answer>
-  Core Workflow Enhanced
-  <a href="https://www.terraform.io/intro/core-workflow#the-core-workflow-enhanced-by-terraform-cloud">The Core Workflow Enhanced by Terraform Cloud</a>
+<h3>Answer</h3>
+Core Workflow Enhanced
+  <a target="_blank" href="https://www.terraform.io/intro/core-workflow#the-core-workflow-enhanced-by-terraform-cloud">The Core Workflow Enhanced by Terraform Cloud</a>
