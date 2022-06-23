@@ -163,6 +163,15 @@ provider "aws" {
 
 https://www.terraform.io/docs/language/providers/requirements.html#requiring-providers
 
+<h2>You can use -target flag on terraform plan to only affect specific resources.</h2>
+
+<h3>Answer</h3> True
+
+<h3>Explanation</h3>
+-target=ADDRESS - Instructs Terraform to focus its planning efforts only on resource instances which match the given address and on any objects that those instances depend on
+
+https://www.terraform.io/docs/cli/commands/plan.html#resource-targeting
+
 
 
 
