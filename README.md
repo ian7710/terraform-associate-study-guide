@@ -336,5 +336,5 @@ When the Pull Request is approved Terraform Cloud runs terraform apply</h2>
 Core Workflow Enhanced
 
 <h3>Explanation</h3>
-The Core Workflow Enhanced by Terraform Cloud
+<a href="https://www.terraform.io/intro/core-workflow#the-core-workflow-enhanced-by-terraform-cloud">The Core Workflow Enhanced by Terraform Cloud</a>
 
