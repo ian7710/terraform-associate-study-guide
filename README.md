@@ -366,3 +366,10 @@ so if you run "terraform plan" Terraform will not see any existing state
 for this configuration.
 https://www.terraform.io/docs/cli/commands/workspace/new.html
 
+<h2>IaC replaces the process of manually configuration cloud resources through a provider's web portal?</h2>
+
+<h3>Answer</h3>	
+True
+
+<h3>Explanation</h3>
+https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code
