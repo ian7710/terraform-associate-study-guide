@@ -373,3 +373,8 @@ True
 
 <h3>Explanation</h3>
 https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code
+
+<h2>Terraform can store its state in variety of backends, where IaC tools such as AWS CloudFormation cannot.</h2>
+
+<h3>Answer</h3>	
+True
