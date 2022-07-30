@@ -350,3 +350,19 @@ The search query will look at module name, provider, and description to match yo
 
 https://www.terraform.io/docs/registry/modules/use.html#finding-modules
 
+<h2>The Terraform Registry can search based on the following search terms</h2>
+
+<h3>How do you create a workspace?</h3>	
+terraform workspace new
+
+<h3>Explanation</h3>
+The terraform workspace new command is used to create a new workspace.
+
+$ terraform workspace new example
+Created and switched to workspace "example"!
+
+You're now on a new, empty workspace. Workspaces isolate their state,
+so if you run "terraform plan" Terraform will not see any existing state
+for this configuration.
+https://www.terraform.io/docs/cli/commands/workspace/new.html
+
