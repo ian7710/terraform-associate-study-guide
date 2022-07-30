@@ -338,3 +338,15 @@ Core Workflow Enhanced
 <h3>Explanation</h3>
 <a target="_blank" href="https://www.terraform.io/intro/core-workflow#the-core-workflow-enhanced-by-terraform-cloud">The Core Workflow Enhanced by Terraform Cloud</a>
 
+<h2>The Terraform Registry can search based on the following search terms</h2>
+
+<h3>Answer</h3>	
+provider, name, description
+
+<h3>Explanation</h3>
+Every page on the registry has a search field for finding modules. Enter any type of module you're looking for (examples: "vault", "vpc", "database"), and the resulting modules will be listed.
+
+The search query will look at module name, provider, and description to match your search terms. On the results page, filters can be used to further refine search results.
+
+https://www.terraform.io/docs/registry/modules/use.html#finding-modules
+
