@@ -326,3 +326,13 @@ Terraform takes the current state and stores it in a file called terrraform.tfst
 <h3>Explanation</h3>
 Its not easy to find documentation for this feature, but if you test in practice you will see that this is how it works locally.
 
+<h2>When passing the filename of a saved plan file to terraform apply FILENAME what will happen?</h2>
+
+<h3>Answer</h3>	
+Terraform apply will not prompt for approval
+
+<h3>Explanation</h3>
+If you pass the filename of a previously-saved plan file, terraform apply performs exactly the steps specified by that plan file. It does not prompt for approval; if you want to inspect a plan file before applying it, you can use terraform show.
+
+https://www.terraform.io/docs/cli/commands/apply.html#saved-plan-mode
+
