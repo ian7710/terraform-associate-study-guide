@@ -317,3 +317,12 @@ Trace - Only when I would be "tracing" the code and trying to find one part of a
 Info - Generally useful information to log (service start/stop, configuration assumptions, etc). Info I want to always have available but usually don't care about under normal circumstances. This is my out-of-the-box config level.
 Warn - Anything that can potentially cause application oddities, but for which I am automatically recovering. (Such as switching from a primary to backup server, retrying an operation, missing secondary data, etc.)
 Error - Any error which is fatal to the operation, but not the service or application (can't open a required file, missing data, etc.). These errors will force user (administrator, or direct user) intervention. These are usually reserved (in my apps) for incorrect connection strings, missing services, etc.
+
+<h2>How do Terraform backups work when using a local backend?</h2>
+
+<h3>Answer</h3>	
+Terraform takes the current state and stores it in a file called terrraform.tfstate.backup
+
+<h3>Explanation</h3>
+Its not easy to find documentation for this feature, but if you test in practice you will see that this is how it works locally.
+
