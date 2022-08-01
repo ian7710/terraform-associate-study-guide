@@ -393,3 +393,28 @@ slice extracts some consecutive elements from within a list.
   "c",
 ]
 https://www.terraform.io/docs/language/functions/slice.html
+
+<h2>The following data source is set.
+
+data "terraform_remote_state" "vpc" {
+  backend = "remote"
+
+  config = {
+    organization = "hashicorp"
+    workspaces = {
+      name = "vpc-prod"
+    }
+  }
+}
+How would it be referenced within a resource?</h2>
+
+<h3>Answer</h3>	
+resource "aws_instance" "foo" { # ... subnet_id = data.terraform_remote_state.vpc.outputs.subnet_id }
+
+<h2>Which of the following is NOT a built-in string function?</h2>
+
+<h3>Answer</h3>	
+Slice is a built-in Collection function
+
+<h3>Explanation</h3>
+https://www.terraform.io/docs/language/state/remote-state-data.html#example-usage-remote-backend-
