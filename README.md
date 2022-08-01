@@ -378,3 +378,18 @@ https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code
 
 <h3>Answer</h3>	
 True
+
+<h2>Which of the following is NOT a built-in string function?</h2>
+
+<h3>Answer</h3>	
+Slice is a built-in Collection function
+
+<h3>Explanation</h3>
+slice extracts some consecutive elements from within a list.
+
+> slice(["a", "b", "c", "d"], 1, 3)
+[
+  "b",
+  "c",
+]
+https://www.terraform.io/docs/language/functions/slice.html
